@@ -7,13 +7,11 @@
 ::  If you want to better understand script, read from MAS separate files version. 
 
 
-echo ##################################################################
-echo #                    NBI - CYBER CRIME DIVISION                  #
-echo #           	     Microsoft Office Activation              #
-echo #       		    CODED BY : X-M3N - Luca - Lilz            #                                      
-echo ##################################################################
-
-
+echo 	    ##############################################################
+echo 	    #                 Microsoft Office Activation                #
+echo 	    #                							                 #
+echo 	    #       	   		DEVELOPED BY : X-M3N				     #
+echo 	    ##############################################################
 
 
 ::========================================================================================================================================
@@ -268,9 +266,9 @@ echo:
 echo:
 echo:
 echo 	    ##############################################################
-echo 	    #                 NBI - CYBER CRIME DIVISION                 #
-echo 	    #                Microsoft Office Activation                 #
-echo 	    #       	   DEVELOPED BY : X-M3N - Luca - Lilz            #
+echo 	    #                 Microsoft Office Activation                #
+echo 	    #                							                 #
+echo 	    #       	   		DEVELOPED BY : X-M3N				     #
 echo 	    ##############################################################
 echo:       ______________________________________________________________
 echo:
@@ -1776,8 +1774,11 @@ title  Ohook Activation %masver%
 
 echo:
 echo:
-echo:
-echo:
+echo 	    ##############################################################
+echo 	    #                 Microsoft Office Activation                #
+echo 	    #                							                 #
+echo 	    #       	   		DEVELOPED BY : X-M3N				     #
+echo 	    ##############################################################
 echo         ____________________________________________________________
 echo:
 echo                 [1] Install Ohook Office Activation
@@ -3078,8 +3079,11 @@ mode 76, 25
 title  KMS38 Activation %masver%
 
 echo:
-echo:
-echo:
+echo 	    ##############################################################
+echo 	    #                 Microsoft Office Activation                #
+echo 	    #                							                 #
+echo 	    #       	   		DEVELOPED BY : X-M3N				     #
+echo 	    ##############################################################
 echo:
 echo         ____________________________________________________________
 echo:
@@ -3989,9 +3993,11 @@ title  %_title%
 mode con: cols=76 lines=30
 
 echo.
-echo.
-echo.
-echo.
+echo 	    ##############################################################
+echo 	    #                 Microsoft Office Activation                #
+echo 	    #                							                 #
+echo 	    #       	   		DEVELOPED BY : X-M3N				     #
+echo 	    ##############################################################
 echo.       ______________________________________________________________
 echo.
 echo.              [1] Activate - Windows
