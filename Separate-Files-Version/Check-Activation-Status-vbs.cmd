@@ -5,8 +5,8 @@
 
 
 ::  Check-Activation-Status
-::  Written by @abbodi1406
-::  forums.mydigitallife.net/posts/838808
+::  Written by @0x3c62723e
+::  0x3c62723e.dev/posts/838808
 
 
 
