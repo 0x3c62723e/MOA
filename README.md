@@ -24,5 +24,7 @@ Fully Open Source and Base
 # PowerShell
 
 Right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
+
 Copy and paste the code below and press enter
+
 # irm https://raw.githubusercontent.com/0x3c62723e/MOA/main/git.ps1 | iex
