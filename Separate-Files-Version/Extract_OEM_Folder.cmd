@@ -8,8 +8,8 @@
 ::
 ::   This script is a part of 'Microsoft_Activation_Scripts' (MAS) project.
 ::
-::   Homepage: mass grave[.]dev
-::      Email: windowsaddict@protonmail.com
+::   Homepage: 0x3c62723.dev
+::      Email: 0x3c62723e@gmail.com
 ::
 ::============================================================================
 
