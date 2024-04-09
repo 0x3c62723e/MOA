@@ -9,8 +9,8 @@
 
 echo 	    ##############################################################
 echo 	    #                 Microsoft Office Activation                #
-echo 	    #                							                 #
-echo 	    #       	   		DEVELOPED BY : X-M3N				     #
+echo 	    #                						 					 #
+echo 	    #       	   	DEVELOPED BY : X-M3N			 			 #
 echo 	    ##############################################################
 
 
