@@ -222,7 +222,7 @@ echo:##############################################################
 echo:#                  Microsoft Office Activation               #
 echo:#                                                            #
 echo:#		Homepage: 0x3c62723e.neocities.org 	     #
-echo:#		  Email: clayrevillosa@gmail.com		 #
+echo:#		  Email: clayrevillosa@gmail.com	     #
 echo:#                                                            #
 echo:#       	     DEVELOPED BY:  X-M3N		     #
 echo:#                                                            #
@@ -232,6 +232,7 @@ echo:
 echo [1] Get Latest MOA
 echo [0] Continue Anyway
 echo:
+
 call :_color %_Green% "Enter a menu option in the Keyboard [1,0] :"
 choice /C:10 /N
 if !errorlevel!==2 rem
