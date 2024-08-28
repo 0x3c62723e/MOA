@@ -3,8 +3,8 @@
 @echo off
 
 ::::
-::  For command line switches, check 0x3c62723e.neocities.org
-::  If you want to better understand script, read from MOA separate files version. 
+::  For command line switches, check mass grave[.]dev/command_line_switches.html
+::  If you want to better understand script, read from MAS separate files version. 
 
 
 echo:	##############################################################
@@ -225,11 +225,10 @@ echo:#                                                            #
 echo:#		Homepage: 0x3c62723e.neocities.org 	     #
 echo:#		Email: clayrevillosa@gmail.com		     #
 echo:#                                                            #
-echo:#       	   DEVELOPED BY : X-M3N			     #
+echo:#       	   DEVELOPED BY:  X-M3N			     #
 echo:#                                                            #
 echo:##############################################################	
 echo ______________________________________________________________
-echo:      [-] Choose number Option and Press Enter [-]
 echo:
 echo [1] Get Latest MOA
 echo [0] Continue Anyway
