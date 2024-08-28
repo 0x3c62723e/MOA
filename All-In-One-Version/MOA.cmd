@@ -215,17 +215,16 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 if defined old (
 echo ______________________________________________________________
 %eline%
-echo This Tool Developed for my Personal Work Purpose Only
 echo ______________________________________________________________
 echo:
 if not defined _MASunattended (
 echo:##############################################################
-echo:#                 Microsoft Office Activation                #
+echo:#                  Microsoft Office Activation               #
 echo:#                                                            #
 echo:#		Homepage: 0x3c62723e.neocities.org 	     #
-echo:#		Email: clayrevillosa@gmail.com		     #
+echo:#		  Email: clayrevillosa@gmail.com		   #
 echo:#                                                            #
-echo:#       	   DEVELOPED BY:  X-M3N			     #
+echo:#       	     DEVELOPED BY:  X-M3N		     #
 echo:#                                                            #
 echo:##############################################################	
 echo ______________________________________________________________
