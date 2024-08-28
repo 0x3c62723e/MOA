@@ -213,6 +213,12 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 )
 
 if defined old (
+echo ________________________________________________
+%eline%
+echo You are running outdated version MAS %masver%
+echo ________________________________________________
+echo:
+if not defined _MASunattended (
 echo:	##############################################################
 echo:	#                 Microsoft Office Activation                #
 echo:	#                                                            #
@@ -222,12 +228,6 @@ echo:	#                                                            #
 echo:	#       	   DEVELOPED BY : X-M3N			     #
 echo:	#                                                            #
 echo:	##############################################################	
-echo ________________________________________________
-%eline%
-echo You are running outdated version MAS %masver%
-echo ________________________________________________
-echo:
-if not defined _MASunattended (
 echo [1] Get Latest MAS
 echo [0] Continue Anyway
 echo:
