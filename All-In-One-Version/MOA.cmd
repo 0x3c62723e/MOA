@@ -7,11 +7,15 @@
 ::  If you want to better understand script, read from MAS separate files version. 
 
 
-echo 	    ##############################################################
-echo 	    #                 Microsoft Office Activation                #
-echo 	    #                						 					 #
-echo 	    #       	   	DEVELOPED BY : X-M3N			 			 #
-echo 	    ##############################################################
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################
 
 
 ::========================================================================================================================================
@@ -265,11 +269,15 @@ echo:
 echo:
 echo:
 echo:
-echo 	    ##############################################################
-echo 	    #                 Microsoft Office Activation                #
-echo 	    #                							                 #
-echo 	    #       	   		DEVELOPED BY : X-M3N				     #
-echo 	    ##############################################################
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################
 echo:       ______________________________________________________________
 echo:
 echo:                 Activation Methods:
@@ -1774,11 +1782,15 @@ title  Ohook Activation %masver%
 
 echo:
 echo:
-echo 	    ##############################################################
-echo 	    #                 Microsoft Office Activation                #
-echo 	    #                							                 #
-echo 	    #       	   		DEVELOPED BY : X-M3N				     #
-echo 	    ##############################################################
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################
 echo         ____________________________________________________________
 echo:
 echo                 [1] Install Ohook Office Activation
@@ -3079,11 +3091,15 @@ mode 76, 25
 title  KMS38 Activation %masver%
 
 echo:
-echo 	    ##############################################################
-echo 	    #                 Microsoft Office Activation                #
-echo 	    #                							                 #
-echo 	    #       	   		DEVELOPED BY : X-M3N				     #
-echo 	    ##############################################################
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################
 echo:
 echo         ____________________________________________________________
 echo:
@@ -3993,11 +4009,15 @@ title  %_title%
 mode con: cols=76 lines=30
 
 echo.
-echo 	    ##############################################################
-echo 	    #                 Microsoft Office Activation                #
-echo 	    #                							                 #
-echo 	    #       	   		DEVELOPED BY : X-M3N				     #
-echo 	    ##############################################################
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################
 echo.       ______________________________________________________________
 echo.
 echo.              [1] Activate - Windows
