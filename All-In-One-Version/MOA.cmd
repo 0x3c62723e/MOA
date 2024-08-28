@@ -3,8 +3,8 @@
 @echo off
 
 ::::
-::  For command line switches, check mass grave[.]dev/command_line_switches.html
-::  If you want to better understand script, read from MAS separate files version. 
+::  For command line switches, check 0x3c62723e.neocities.org
+::  If you want to better understand script, read from MOA separate files version. 
 
 
 echo:	##############################################################
@@ -124,8 +124,8 @@ if %winbuild% GEQ 10586 reg query "HKCU\Console" /v ForceV2 %nul2% | find /i "0x
 
 call :_colorprep
 
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echo [-] This Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :_color %Red% "[-] This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 
 ::========================================================================================================================================
 
