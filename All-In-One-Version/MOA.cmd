@@ -91,7 +91,7 @@ popd
 
 cls
 color 07
-title  Microsoft_Activation_Scripts %masver%
+title  Microsoft_Activation_Scripts
 
 set _args=
 set _elev=
@@ -272,7 +272,7 @@ setlocal EnableDelayedExpansion
 
 cls
 color 07
-title  Microsoft_Activation_Scripts %masver%
+title  This Tool Developed By X-m3n
 mode 76, 30
 
 echo:
@@ -310,7 +310,7 @@ choice /C:123456780 /N
 set _erl=%errorlevel%
 
 if %_erl%==9 exit /b
-if %_erl%==8 start %mas%troubleshoot.html & goto :MainMenu
+if %_erl%==8 setlocal & call :_Check_Status_wmi & cls & endlocal & goto :MainMenu
 if %_erl%==7 goto:Extras
 if %_erl%==6 setlocal & call :troubleshoot      & cls & endlocal & goto :MainMenu
 if %_erl%==5 setlocal & call :_Check_Status_wmi & cls & endlocal & goto :MainMenu
