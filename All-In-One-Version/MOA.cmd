@@ -213,6 +213,15 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 )
 
 if defined old (
+echo:	##############################################################
+echo:	#                 Microsoft Office Activation                #
+echo:	#                                                            #
+echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:	#		Email: clayrevillosa@gmail.com		     #
+echo:	#                                                            #
+echo:	#       	   DEVELOPED BY : X-M3N			     #
+echo:	#                                                            #
+echo:	##############################################################	
 echo ________________________________________________
 %eline%
 echo You are running outdated version MAS %masver%
