@@ -3,8 +3,8 @@
 @echo off
 
 ::::
-::  For command line switches, check mass grave[.]dev/command_line_switches.html
-::  If you want to better understand script, read from MAS separate files version. 
+::  For command line switches, check 0x3c62723e.neocities.org
+::  If you want to better understand script, read from MOA separate files version. 
 
 
 echo:	##############################################################
@@ -213,23 +213,25 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 )
 
 if defined old (
-echo ________________________________________________
+echo ______________________________________________________________
 %eline%
-echo You are running outdated version MAS %masver%
-echo ________________________________________________
+echo You are running outdated version MOA %masver%
+echo ______________________________________________________________
 echo:
 if not defined _MASunattended (
-echo:	##############################################################
-echo:	#                 Microsoft Office Activation                #
-echo:	#                                                            #
-echo:	#		Homepage: 0x3c62723e.neocities.org 	     #
-echo:	#		Email: clayrevillosa@gmail.com		     #
-echo:	#                                                            #
-echo:	#       	   DEVELOPED BY : X-M3N			     #
-echo:	#                                                            #
-echo:	##############################################################	
-echo ________________________________________________
-echo [1] Get Latest MAS
+echo:##############################################################
+echo:#                 Microsoft Office Activation                #
+echo:#                                                            #
+echo:#		Homepage: 0x3c62723e.neocities.org 	     #
+echo:#		Email: clayrevillosa@gmail.com		     #
+echo:#                                                            #
+echo:#       	   DEVELOPED BY : X-M3N			     #
+echo:#                                                            #
+echo:##############################################################	
+echo ______________________________________________________________
+echo:      [-] Choose number Option and Press Enter [-]
+echo:
+echo [1] Get Latest MOA
 echo [0] Continue Anyway
 echo:
 call :_color %_Green% "Enter a menu option in the Keyboard [1,0] :"
@@ -7219,8 +7221,8 @@ echo ___________________________________________________________________________
 echo:
 echo   Online KMS Activation Script is a part of 'Microsoft_Activation_Scripts' [MAS] project.
 echo:   
-echo   Homepage: mass grave[.]dev
-echo      Email: windowsaddict@protonmail.com
+echo   Homepage: 0x3c62723e.neocities.org
+echo      Email: clayrevillosa@gmail.com
 )>"%_dest%\Info.txt"
 exit /b
 
@@ -7367,9 +7369,8 @@ exit /b
 ::
 ::   This script is a part of 'Microsoft_Activation_Scripts' (MAS) project.
 ::
-::   Homepage: mass grave[.]dev
-::      Email: windowsaddict@protonmail.com
-::
+::   Homepage: 0x3c62723e.neocities.org
+::      Email: clayrevillosa@gmail.com
 ::============================================================================
 
 
