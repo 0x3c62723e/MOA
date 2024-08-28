@@ -215,7 +215,7 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 if defined old (
 echo ______________________________________________________________
 %eline%
-echo You are running outdated version MOA %masver% Please Update your Tools!
+echo This Tool Developed for my Personal Work Purpose Only
 echo ______________________________________________________________
 echo:
 if not defined _MASunattended (
@@ -8753,8 +8753,8 @@ if %winbuild% GEQ 10586 reg query "HKCU\Console" /v ForceV2 %nul2% | find /i "0x
 
 call :_colorprep
 
-set "nceline=echo: &echo This Tool Developed for my Personal Work Purpose Only [-] &echo:"
-set "eline=echo: &call :_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
+set "nceline=echo: &echo [-]This Tool Developed for my Personal Work Purpose Only [-]&echo:"
+set "eline=echo: &call :_color %Red% "[-]This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 set "line=_________________________________________________________________________________________________"
 if %~z0 GEQ 200000 (set "_exitmsg=Go back") else (set "_exitmsg=Exit")
 
@@ -9830,8 +9830,8 @@ set  "_Green="Black" "Green""
 set "_Yellow="Black" "Yellow""
 )
 
-set "nceline=echo: &echoThis Tool Developed for my Personal Work Purpose Only [-] &echo:"
-set "eline=echo: &call :dk_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
+set "nceline=echo: &echo[-]This Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :dk_color %Red% "[-]This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 set "line=echo ___________________________________________________________________________________________"
 if %~z0 GEQ 200000 (set "_exitmsg=Go back") else (set "_exitmsg=Exit")
 
