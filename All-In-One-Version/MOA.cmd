@@ -215,7 +215,7 @@ if not [%%#]==[] (echo "%%#" | find "127.69" %nul1% && (echo "%%#" | find "127.6
 if defined old (
 echo ______________________________________________________________
 %eline%
-echo You are running outdated version MOA %masver%
+echo You are running outdated version MOA %masver% Please Update your Tools!
 echo ______________________________________________________________
 echo:
 if not defined _MASunattended (
@@ -540,8 +540,8 @@ set  "_Green="Black" "Green""
 set "_Yellow="Black" "Yellow""
 )
 
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :dk_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echo [-] This Tool Developed for my Personal Work Purpose Only [-]&echo:"
+set "eline=echo: &call :dk_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 if %~z0 GEQ 200000 (
 set "_exitmsg=Go back"
 set "_fixmsg=Go back to Main Menu, select Troubleshoot and run Fix Licensing option."
@@ -1745,8 +1745,8 @@ set  "_Green="Black" "Green""
 set "_Yellow="Black" "Yellow""
 )
 
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :dk_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echo This Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :dk_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 if %~z0 GEQ 200000 (
 set "_exitmsg=Go back"
 set "_fixmsg=Go back to Main Menu, select Troubleshoot and run Fix Licensing option."
@@ -2460,7 +2460,7 @@ call :oh_installkey
 ) else (
 set error=1
 call :dk_color %Red% "Checking Product In Script              [Office %oVer%.0 !_prod! not found in script]"
-call :dk_color %Blue% "Make sure you are using Latest MAS script."
+call :dk_color %Blue% "Make sure you are using Latest MOA script."
 )
 )
 
@@ -3053,8 +3053,8 @@ set "_Yellow="Black" "Yellow""
 )
 
 set _k38=
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :dk_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echo This Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :dk_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 if %~z0 GEQ 200000 (
 set "_exitmsg=Go back"
 set "_fixmsg=Go back to Main Menu, select Troubleshoot and run Fix Licensing option."
@@ -3914,8 +3914,8 @@ if %winbuild% GEQ 10586 reg query "HKCU\Console" /v ForceV2 2>nul | find /i "0x0
 call :_colorprep
 set "_buf={$W=$Host.UI.RawUI.WindowSize;$B=$Host.UI.RawUI.BufferSize;$W.Height=31;$B.Height=300;$Host.UI.RawUI.WindowSize=$W;$Host.UI.RawUI.BufferSize=$B;}"
 
-set "nceline=echo. &echo ==== ERROR ==== &echo."
-set "eline=echo. &call :_color %Red% "==== ERROR ====" &echo."
+set "nceline=echo. &echo This Tool Developed for my Personal Work Purpose Only [-] &echo."
+set "eline=echo. &call :_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo."
 if %_Debug% EQU 1 set _unattended=1
 
 ::========================================================================================================================================
@@ -7375,7 +7375,7 @@ exit /b
 
 if not "%~1"=="Task" (
 echo.
-echo ====== Error ======
+echo This Tool Developed for my Personal Work Purpose Only [-]
 echo.
 echo This file is supposed to be run only by the scheduled task.
 echo.
@@ -8753,8 +8753,8 @@ if %winbuild% GEQ 10586 reg query "HKCU\Console" /v ForceV2 %nul2% | find /i "0x
 
 call :_colorprep
 
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echo This Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 set "line=_________________________________________________________________________________________________"
 if %~z0 GEQ 200000 (set "_exitmsg=Go back") else (set "_exitmsg=Exit")
 
@@ -9830,8 +9830,8 @@ set  "_Green="Black" "Green""
 set "_Yellow="Black" "Yellow""
 )
 
-set "nceline=echo: &echo ==== ERROR ==== &echo:"
-set "eline=echo: &call :dk_color %Red% "==== ERROR ====" &echo:"
+set "nceline=echo: &echoThis Tool Developed for my Personal Work Purpose Only [-] &echo:"
+set "eline=echo: &call :dk_color %Red% "This Tool Developed for my Personal Work Purpose Only [-]" &echo:"
 set "line=echo ___________________________________________________________________________________________"
 if %~z0 GEQ 200000 (set "_exitmsg=Go back") else (set "_exitmsg=Exit")
 
