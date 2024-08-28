@@ -230,6 +230,7 @@ echo:	#                                                            #
 echo:	##############################################################	
 echo [1] Get Latest MAS
 echo [0] Continue Anyway
+echo [2] Continue Anyway
 echo:
 call :_color %_Green% "Enter a menu option in the Keyboard [1,0] :"
 choice /C:10 /N
