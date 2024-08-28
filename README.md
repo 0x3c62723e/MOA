@@ -1,3 +1,4 @@
+![MOA](https://github.com/user-attachments/assets/5851bf75-870c-43d9-ac33-9cd090604aee)
 # Microsoft Offices Activator (MOA)
 
 A Windows and Office activator using HWID / Ohook / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections
